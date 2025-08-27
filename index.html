@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fragrance House</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #fefefe;
+      color: #333;
+    }
+    header {
+      background: #111;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1587035642903-5b4b4a56eebd') no-repeat center/cover;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero h1 { font-size: 3em; }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      margin: 15px;
+      width: 250px;
+      padding: 15px;
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .card h3 { margin: 10px 0; }
+    .card button {
+      background: #25D366; /* WhatsApp green */
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    .card button:hover {
+      background: #128C7E;
+    }
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>Fragrance House</h2>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Discover Your Signature Scent</h1>
+    <p>Premium Perfumes | Long-lasting Fragrance</p>
+  </section>
+
+  <section class="products">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30" alt="Perfume 1">
+      <h3>Royal Oud</h3>
+      <p>₹1999</p>
+      <a href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20order%20Royal%20Oud%20perfume" target="_blank">
+        <button>Order on WhatsApp</button>
+      </a>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1519744792095-2f2205e87b6f" alt="Perfume 2">
+      <h3>Floral Bloom</h3>
+      <p>₹1499</p>
+      <a href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20order%20Floral%20Bloom%20perfume" target="_blank">
+        <button>Order on WhatsApp</button>
+      </a>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1600181951373-03e1acfc0f98" alt="Perfume 3">
+      <h3>Musk Essence</h3>
+      <p>₹1799</p>
+      <a href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20order%20Musk%20Essence%20perfume" target="_blank">
+        <button>Order on WhatsApp</button>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>📞 Contact us: +91 98765 43210 | ✉️ fragrancehouse@email.com</p>
+    <p>&copy; 2025 Fragrance House. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
